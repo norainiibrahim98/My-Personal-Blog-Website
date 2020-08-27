@@ -15,7 +15,6 @@ h1, h2, p, figcaption{
 .about-me {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 100px 220px;
     gap: 20px 1px;
     grid-template-areas: "." ".";
     text-align: center;
@@ -32,12 +31,12 @@ h1, h2, p, figcaption{
 .profile-pic {
     width: 100px;
     height: 100px;
-    border-radius: 50px;
+    border-radius: 50%;
     margin: 0 auto;
 }
 
 .right-btn {
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 :root {
@@ -115,6 +114,28 @@ footer {
 
 .txt-who-icon {
     color: aliceblue;
+}
+
+footer .input-group {
+    flex-wrap: nowrap !important;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+footer .btn {
+    background-color: #d6d6d6;
+}
+footer .btn-info {
+    height: 30px !important;
+    width: 75px !important;
+    background-color: #3f4c6b !important;
+    border-color: #1f3058 !important;
+    margin-left: 10px;
+
+}
+
+footer .btn-sm {
+    font-size: 12px !important;
 }
 
 
