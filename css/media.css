@@ -108,4 +108,8 @@
   .cover-img {
     text-align: center;
   }
+
+  .img-fluid {
+    height: 400px
+  }
 }
