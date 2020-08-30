@@ -10,12 +10,8 @@
   }
 
   .content-home {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 310px;
-    gap: 2% 2%;
-    grid-template-areas: ". . .";
-    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
   }
 
   .card-container.card {
@@ -26,8 +22,8 @@
     height: 135px;
   }
 
-  .card {
-    min-height: 300px;
+  .card-holder {
+    padding: 0 0 50px 20px;
   }
 
   .svg-icons {
@@ -65,7 +61,7 @@
   }
 
   .card-img-top {
-    height: 200px;
+    height: 250px;
   }
 
   .card {
@@ -88,17 +84,13 @@
     font-size: 1.2em !important;
   }
 
-  .card-title {
-    min-height: 45px;
-  }
-
   .who-container {
     justify-items: center;
   }
   
   .who-profile-pic {
-    width: 50%;
-    min-height: 500px;
+    width: 300px;
+    
   }
 
   .author-info {

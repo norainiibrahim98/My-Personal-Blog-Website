@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +11,7 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"></a>
+    <a class="navbar-brand" href="#" aria-label="Homepage"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -21,10 +19,10 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html" aria-label="Homepage">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="who.html">Who?</a>
+          <a class="nav-link" href="who.html" aria-label="Read more about the author">Who?</a>
         </li>
       </ul>
     </div>
@@ -33,24 +31,23 @@
   <div class="container">
     <h1 class="main-title who">Who?</h1>
     <div class="who-container">
-        <img src="assets/profilepic.jpg" class="who-profile-pic" alt="">
+        <img src="assets/profilepic.jpg" class="who-profile-pic" alt="profile picture">
         <div class="who-description">
             <h4 class="main-title blog">Hi there!</h4>   
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque turpis enim, rutrum eget nunc dapibus, fringilla congue turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam quis leo justo. Ut tempus ante non rhoncus egestas. Etiam finibus dui id accumsan dictum. Duis egestas cursus felis, sit amet vehicula lorem lobortis sed. Praesent aliquet lectus libero, vitae rhoncus est porttitor id. Aliquam et dignissim eros, ut auctor velit. </p>
+            <p class="about-me-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque turpis enim, rutrum eget nunc dapibus, fringilla congue turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam quis leo justo. Ut tempus ante non rhoncus egestas. Etiam finibus dui id accumsan dictum. Duis egestas cursus felis, sit amet vehicula lorem lobortis sed. Praesent aliquet lectus libero, vitae rhoncus est porttitor id. Aliquam et dignissim eros, ut auctor velit. </p>
             <div class="who-icons">
-                <img class="svg-icons" src="assets/panda.png" alt=""><span class="txt-who-icon">I definitely sleep a lot.</span>
+                <img class="svg-icons" src="assets/panda.png" alt="panda icon"><span class="txt-who-icon">I definitely sleep a lot.</span>
                 <br>
-                <img class="svg-icons" src="assets/sloth.png" alt=""><span class="txt-who-icon">I enjoy anime and nerdy stuff ^_^</span>
+                <img class="svg-icons" src="assets/sloth.png" alt="sloth icon"><span class="txt-who-icon">I enjoy anime and nerdy stuff ^_^</span>
                 <br>
-                <img class="svg-icons" src="assets/monkey.png" alt=""><span class="txt-who-icon">Food? Food! ( ＾◡＾)っ ♡</span>
+                <img class="svg-icons" src="assets/monkey.png" alt="monkey icon"><span class="txt-who-icon">Food? Food! ( ＾◡＾)っ ♡</span>
             </div>
         </div>
       </div>
   </div>
 
   <footer>
-    <h6>Who?</h6>
-    <h6>Contents</h6>
+    <a href="index.html"><h6>Home</h6></a>
     <a href="https://github.com/norainiibrahim98" target="_blank" rel="noopener noreferrer"><img class="svg-icons" src="assets/github-brands.svg" alt=""></a>
     <a href="https://www.linkedin.com/in/norainiibrahim/" target="_blank" rel="noopener noreferrer"><img class="svg-icons" src="assets/linkedin-brands.svg" alt=""></a>
     <form action="#">

@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +10,7 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"></a>
+    <a class="navbar-brand" href="#" aria-label="Homepage"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -20,10 +18,10 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link"  aria-label="Homepage" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="who.html">Who?</a>
+          <a class="nav-link" aria-label="Read more about the author" href="who.html">Who?</a>
         </li>
       </ul>
     </div>
@@ -31,7 +29,7 @@
 
   <div class="container">
     <div class="about-me">
-      <img src="assets/profilepic.jpg" class="profile-pic" alt="">
+      <img src="assets/profilepic.jpg" class="profile-pic" alt="profile picture">
       <div class="about-description">
         <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim lorem velit. Vestibulum
           bibendum molestie mi in tincidunt. Integer bibendum eros a diam semper auctor.</figcaption>
@@ -41,33 +39,27 @@
 
     <h1 class="main-title blog">Blog Posts</h1>
     <div class="content-home">
-      <div class="card">
-        <div class="card text-center">
-          <img src="/assets/constanze.jpg" class="card-img-top">
-          <div class="card-body">
-            <h5 class="card-title ">Hiya hoomaan! This is my first post</h5>
-            <p class="card-text ">Yup definitely first</p>
-            <a href="posts/post1.html" class="btn btn-outline-primary">Read now</a>
+      <div class="card-holder">
+        <div class="card">
+          <div class="card text-center">
+            <img src="/assets/constanze.jpg" class="card-img-top" alt="example picture">
+            <div class="card-body">
+              <h5 class="card-title ">Hiya hoomaan!</h5>
+              <p class="card-text ">Yup definitely first</p>
+              <a href="posts/post1.html" class="btn btn-primary">Read now</a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="card-container card">
-        <div class="card text-center">
-          <img src="/assets/constanze2.jpg" class="card-img-top">
-          <div class="card-body">
-            <h5 class="card-title">I thought first was enough..</h5>
-            <p class="card-text">Lets keep blogging!</p>
-            <a href="posts/post2.html" class="btn btn-outline-primary">Read now</a>
-          </div>
-        </div>
-      </div>
-      <div class="card-container card">
-        <div class="card text-center">
-          <img src="/assets/constanze3.jpg" class="card-img-top">
-          <div class="card-body">
-            <h5 class="card-title">Third one.</h5>
-            <p class="card-text">Can't believe I did the 3rd.</p>
-            <a href="posts/post3.html" class="btn btn-outline-primary">Read now</a>
+      <div class="card-holder">
+        <div class="card">
+          <div class="card text-center">
+            <img src="/assets/constanze2.jpg" class="card-img-top" alt="example picture">
+            <div class="card-body">
+              <h5 class="card-title">Howdy hooman!</h5>
+              <p class="card-text">Lets keep blogging!</p>
+              <a href="posts/post2.html" class="btn btn-primary">Read now</a>
+            </div>
           </div>
         </div>
       </div>
@@ -75,8 +67,7 @@
   </div>
 
   <footer>
-    <h6>Who?</h6>
-    <h6>Contents</h6>
+    <a href="who.html"><h6>Who?</h6></a>
     <a href="https://github.com/norainiibrahim98" target="_blank" rel="noopener noreferrer"><img class="svg-icons" src="assets/github-brands.svg" alt=""></a>
     <a href="https://www.linkedin.com/in/norainiibrahim/" target="_blank" rel="noopener noreferrer"><img class="svg-icons" src="assets/linkedin-brands.svg" alt=""></a>
     <form class="form" action="#">
